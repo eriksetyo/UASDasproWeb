@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Libraries &mdash; CodeIgniter 3.1.9 documentation</title>
+  <title>Custom Function Calls &mdash; CodeIgniter 3.1.9 documentation</title>
   
 
   
@@ -34,8 +34,9 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="CodeIgniter 3.1.9 documentation" href="../index.html"/>
-        <link rel="next" title="Benchmarking Class" href="benchmark.html"/>
-        <link rel="prev" title="PHP Style Guide" href="../general/styleguide.html"/> 
+        <link rel="up" title="Database Reference" href="index.html"/>
+        <link rel="next" title="Database Caching Class" href="caching.html"/>
+        <link rel="prev" title="Database Metadata" href="metadata.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -120,57 +121,57 @@
 </ul>
 </li>
 </ul>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Libraries</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="benchmark.html">Benchmarking Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="caching.html">Caching Driver</a></li>
-<li class="toctree-l2"><a class="reference internal" href="calendar.html">Calendaring Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cart.html">Shopping Cart Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="config.html">Config Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="email.html">Email Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="encrypt.html">Encrypt Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="encryption.html">Encryption Library</a></li>
-<li class="toctree-l2"><a class="reference internal" href="file_uploading.html">File Uploading Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="form_validation.html">Form Validation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ftp.html">FTP Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="image_lib.html">Image Manipulation Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input.html">Input Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="javascript.html">Javascript Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="language.html">Language Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="loader.html">Loader Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="migration.html">Migrations Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="output.html">Output Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pagination.html">Pagination Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="parser.html">Template Parser Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="security.html">Security Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sessions.html">Session Library</a></li>
-<li class="toctree-l2"><a class="reference internal" href="table.html">HTML Table Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trackback.html">Trackback Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typography.html">Typography Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uri.html">URI Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user_agent.html">User Agent Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xmlrpc.html">XML-RPC and XML-RPC Server Classes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="zip.html">Zip Encoding Class</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../libraries/index.html">Libraries</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/benchmark.html">Benchmarking Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/caching.html">Caching Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/calendar.html">Calendaring Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/cart.html">Shopping Cart Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/config.html">Config Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/email.html">Email Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/encrypt.html">Encrypt Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/encryption.html">Encryption Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/file_uploading.html">File Uploading Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/form_validation.html">Form Validation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/ftp.html">FTP Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/image_lib.html">Image Manipulation Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/input.html">Input Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/javascript.html">Javascript Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/language.html">Language Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/loader.html">Loader Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/migration.html">Migrations Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/output.html">Output Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/pagination.html">Pagination Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/parser.html">Template Parser Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/security.html">Security Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/sessions.html">Session Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/table.html">HTML Table Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/trackback.html">Trackback Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/typography.html">Typography Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/unit_testing.html">Unit Testing Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/uri.html">URI Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/user_agent.html">User Agent Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/xmlrpc.html">XML-RPC and XML-RPC Server Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/zip.html">Zip Encoding Class</a></li>
 </ul>
 </li>
 </ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../database/index.html">Database Reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../database/examples.html">Quick Start: Usage Examples</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/configuration.html">Database Configuration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/connecting.html">Connecting to a Database</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/queries.html">Running Queries</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/results.html">Generating Query Results</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/helpers.html">Query Helper Functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/query_builder.html">Query Builder Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/transactions.html">Transactions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/metadata.html">Getting MetaData</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/call_function.html">Custom Function Calls</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/caching.html">Query Caching</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/forge.html">Database Manipulation with Database Forge</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/utilities.html">Database Utilities Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/db_driver_reference.html">Database Driver Reference</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Database Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="examples.html">Quick Start: Usage Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">Database Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connecting.html">Connecting to a Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="queries.html">Running Queries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="results.html">Generating Query Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="helpers.html">Query Helper Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="query_builder.html">Query Builder Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transactions.html">Transactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="metadata.html">Getting MetaData</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Custom Function Calls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="caching.html">Query Caching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forge.html">Database Manipulation with Database Forge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utilities.html">Database Utilities Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Database Driver Reference</a></li>
 </ul>
 </li>
 </ul>
@@ -304,57 +305,57 @@
 </ul>
 </li>
 </ul>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Libraries</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="benchmark.html">Benchmarking Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="caching.html">Caching Driver</a></li>
-<li class="toctree-l2"><a class="reference internal" href="calendar.html">Calendaring Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cart.html">Shopping Cart Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="config.html">Config Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="email.html">Email Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="encrypt.html">Encrypt Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="encryption.html">Encryption Library</a></li>
-<li class="toctree-l2"><a class="reference internal" href="file_uploading.html">File Uploading Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="form_validation.html">Form Validation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ftp.html">FTP Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="image_lib.html">Image Manipulation Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input.html">Input Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="javascript.html">Javascript Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="language.html">Language Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="loader.html">Loader Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="migration.html">Migrations Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="output.html">Output Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pagination.html">Pagination Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="parser.html">Template Parser Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="security.html">Security Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sessions.html">Session Library</a></li>
-<li class="toctree-l2"><a class="reference internal" href="table.html">HTML Table Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trackback.html">Trackback Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typography.html">Typography Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uri.html">URI Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user_agent.html">User Agent Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xmlrpc.html">XML-RPC and XML-RPC Server Classes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="zip.html">Zip Encoding Class</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../libraries/index.html">Libraries</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/benchmark.html">Benchmarking Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/caching.html">Caching Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/calendar.html">Calendaring Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/cart.html">Shopping Cart Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/config.html">Config Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/email.html">Email Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/encrypt.html">Encrypt Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/encryption.html">Encryption Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/file_uploading.html">File Uploading Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/form_validation.html">Form Validation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/ftp.html">FTP Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/image_lib.html">Image Manipulation Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/input.html">Input Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/javascript.html">Javascript Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/language.html">Language Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/loader.html">Loader Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/migration.html">Migrations Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/output.html">Output Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/pagination.html">Pagination Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/parser.html">Template Parser Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/security.html">Security Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/sessions.html">Session Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/table.html">HTML Table Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/trackback.html">Trackback Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/typography.html">Typography Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/unit_testing.html">Unit Testing Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/uri.html">URI Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/user_agent.html">User Agent Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/xmlrpc.html">XML-RPC and XML-RPC Server Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libraries/zip.html">Zip Encoding Class</a></li>
 </ul>
 </li>
 </ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../database/index.html">Database Reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../database/examples.html">Quick Start: Usage Examples</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/configuration.html">Database Configuration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/connecting.html">Connecting to a Database</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/queries.html">Running Queries</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/results.html">Generating Query Results</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/helpers.html">Query Helper Functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/query_builder.html">Query Builder Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/transactions.html">Transactions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/metadata.html">Getting MetaData</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/call_function.html">Custom Function Calls</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/caching.html">Query Caching</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/forge.html">Database Manipulation with Database Forge</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/utilities.html">Database Utilities Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../database/db_driver_reference.html">Database Driver Reference</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Database Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="examples.html">Quick Start: Usage Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">Database Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connecting.html">Connecting to a Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="queries.html">Running Queries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="results.html">Generating Query Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="helpers.html">Query Helper Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="query_builder.html">Query Builder Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transactions.html">Transactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="metadata.html">Getting MetaData</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Custom Function Calls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="caching.html">Query Caching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forge.html">Database Manipulation with Database Forge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utilities.html">Database Utilities Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Database Driver Reference</a></li>
 </ul>
 </li>
 </ul>
@@ -407,7 +408,9 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Libraries</li>
+        <li><a href="index.html">Database Reference</a> &raquo;</li>
+      
+    <li>Custom Function Calls</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -419,41 +422,40 @@
 </div>
           <div role="main" class="document">
             
-  <div class="section" id="libraries">
-<h1>Libraries<a class="headerlink" href="#libraries" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="benchmark.html">Benchmarking Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="caching.html">Caching Driver</a></li>
-<li class="toctree-l1"><a class="reference internal" href="calendar.html">Calendaring Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cart.html">Shopping Cart Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="config.html">Config Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="email.html">Email Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="encrypt.html">Encrypt Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="encryption.html">Encryption Library</a></li>
-<li class="toctree-l1"><a class="reference internal" href="file_uploading.html">File Uploading Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="form_validation.html">Form Validation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ftp.html">FTP Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="image_lib.html">Image Manipulation Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="input.html">Input Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="javascript.html">Javascript Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="language.html">Language Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loader.html">Loader Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="migration.html">Migrations Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="output.html">Output Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pagination.html">Pagination Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="parser.html">Template Parser Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="security.html">Security Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sessions.html">Session Library</a></li>
-<li class="toctree-l1"><a class="reference internal" href="table.html">HTML Table Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="trackback.html">Trackback Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="typography.html">Typography Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="unit_testing.html">Unit Testing Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="uri.html">URI Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user_agent.html">User Agent Class</a></li>
-<li class="toctree-l1"><a class="reference internal" href="xmlrpc.html">XML-RPC and XML-RPC Server Classes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="zip.html">Zip Encoding Class</a></li>
-</ul>
+  <div class="section" id="custom-function-calls">
+<h1>Custom Function Calls<a class="headerlink" href="#custom-function-calls" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="this-db-call-function">
+<h2>$this-&gt;db-&gt;call_function();<a class="headerlink" href="#this-db-call-function" title="Permalink to this headline">¶</a></h2>
+<p>This function enables you to call PHP database functions that are not
+natively included in CodeIgniter, in a platform independent manner. For
+example, let’s say you want to call the mysql_get_client_info()
+function, which is <strong>not</strong> natively supported by CodeIgniter. You could
+do so like this:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">db</span><span class="o">-&gt;</span><span class="na">call_function</span><span class="p">(</span><span class="s1">&#39;get_client_info&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>You must supply the name of the function, <strong>without</strong> the mysql_
+prefix, in the first parameter. The prefix is added automatically based
+on which database driver is currently being used. This permits you to
+run the same function on different database platforms. Obviously not all
+function calls are identical between platforms, so there are limits to
+how useful this function can be in terms of portability.</p>
+<p>Any parameters needed by the function you are calling will be added to
+the second parameter.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">db</span><span class="o">-&gt;</span><span class="na">call_function</span><span class="p">(</span><span class="s1">&#39;some_function&#39;</span><span class="p">,</span> <span class="nv">$param1</span><span class="p">,</span> <span class="nv">$param2</span><span class="p">,</span> <span class="nx">etc</span><span class="o">..</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Often, you will either need to supply a database connection ID or a
+database result ID. The connection ID can be accessed using:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">db</span><span class="o">-&gt;</span><span class="na">conn_id</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>The result ID can be accessed from within your result object, like this:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$query</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">db</span><span class="o">-&gt;</span><span class="na">query</span><span class="p">(</span><span class="s2">&quot;SOME QUERY&quot;</span><span class="p">);</span>
+
+<span class="nv">$query</span><span class="o">-&gt;</span><span class="na">result_id</span><span class="p">;</span>
+</pre></div>
+</div>
 </div>
 </div>
 
@@ -463,10 +465,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="benchmark.html" class="btn btn-neutral float-right" title="Benchmarking Class">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="caching.html" class="btn btn-neutral float-right" title="Database Caching Class">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../general/styleguide.html" class="btn btn-neutral" title="PHP Style Guide"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="metadata.html" class="btn btn-neutral" title="Database Metadata"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
